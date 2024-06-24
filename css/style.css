@@ -15,10 +15,12 @@
     height: calc(100vh - 55px);
     background-color: darkblue;
     background-image: url(../img/sidebar-bg.png);
+    flex-direction: column;
+    flex-basis: 60px;
 }
 
 #main{
-    width: calc(100vw - 60px);
+    flex-grow: 1;
     height: calc(100vh - 55px);
     background-color: aqua;
 }
@@ -43,6 +45,8 @@
     height: 60px;
 }
 
+
+
 .fa-grey{
     color: rgb(145, 145, 145);
 }
@@ -53,5 +57,10 @@
     border-color:#f8f9fa;
 }
 
+.bg-red{
+    background-color: red;
+    border: 1px solid black;
+    
+}
 
 
